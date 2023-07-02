@@ -1,0 +1,117 @@
+<!doctype HTML>
+<HTML>
+    <HEAD>
+        <TITLE> My Portfolio Page </TITLE>
+        <style>
+            .header{
+                
+                background-color: #00cccc;
+                display: flex;
+                justify-content: space-between;
+            }
+            .header *{
+                margin: 25px;
+            }
+            
+            h1{
+                
+                color:brown;
+            }
+            .item{
+                position: relative;
+                
+            }
+            .item p{
+                position: absolute;
+                top:50%;
+                left:50%;
+                transform:translate(-50%,-50%);
+                opacity: 0;
+            }
+            .item:hover p{
+                opacity: 0.333333;
+            }
+
+            .grid{
+                display: flex;
+                justify-content: space-evenly;
+                flex-wrap: wrap;  
+          } 
+          .menu{
+            margin-right: 30px;
+          }
+          
+          body{
+            background-color: lightgrey;
+          }
+            a:link{
+                color:white;
+            }
+            a:visited{
+                color:white;
+            }
+        </style>
+    </HEAD>
+    <BODY> 
+<div class="header">
+        <h1>Jeremia</h1>
+
+        <div class="menu"><a href="index.html">
+            Projects
+        </a>
+        <br/>
+        <a href="aboutme.html">
+            About Me
+        </a>
+        </div>
+    </div>
+         <div class="site-description"> 
+            <h2>These are some games designed by me</h2>
+        <p>
+            Games use p5.js, p5.play and matter.js libraries in javascript
+        </p>
+       </div>
+        <br/>
+       <div class="grid">
+        <div class="item">
+        <p>T-Rex Game</p>
+        <br/>
+        <a href="https://editor.p5js.org/whitehatjr/present/ePJrHCACM">
+        <img src="Trex Game.png" width="950px" height="300px"/>
+            </a>
+            </div>
+            <br/>
+            <br/>
+            <div class="item">
+            <p> Bow-Arrow Game</p>
+            <br/>
+            <a href="https://editor.p5js.org/jeremiapious7a/full/TDPQYgyO5">
+               <img src="Bow Game.png" width="350px" height="350px"/> 
+            </a>
+           </div>
+            <br/>
+            <br/>
+            <div class="item">
+            <p>Ghost Game</p>
+            <br/>
+            <a href="https://editor.p5js.org/jeremiapious7a/full/7HOROP94y">
+                <img src="Ghost Game.png" width="350px" height="350px"/>
+            </a>
+       </div>
+            <br/>
+            <br/>
+            <div class="item">
+            <p>Cycling Game</p>
+            <br/>
+            <a href="https://editor.p5js.org/jeremiapious7a/full/AR42idinR">
+                <img src="Cycling Game.png" width="1000px" height="300px"/>
+            </a>
+            </div>
+          </div>
+          <div class="footer">
+            <a href="#">
+                <img/>
+            </a>
+          </div>
+    </BODY>
+</HTML>
